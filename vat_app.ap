@@ -8,4 +8,4 @@ net_price = price - vat
 st.header(f"• ภาษีมูลค่าเพิ่ม (VAT 7%): **{vat:.2f}** บาท")
 st.header(f"• ราคาสุทธิ: {net_price:.2f} บาท")
 st.divider()
-st.write(f"นางสาวพิมพิกา ผลิตัน เลขที่ 3 ม.4/14")
+st.write("นางสาวพิมพิกา ผลิตัน เลขที่ 3 ม.4/14")
