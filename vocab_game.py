@@ -101,4 +101,4 @@ if st.session_state.get("is_ended", False):
     show_result_dialog(ans1, ans2)
 
 st.divider()
-  st.write("นางสาวพิมพิกา ผลิตัน เลขที่ 3 ม.4/14")
+st.write("นางสาวพิมพิกา ผลิตัน เลขที่ 3 ม.4/14")
