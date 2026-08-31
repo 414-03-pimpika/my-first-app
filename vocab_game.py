@@ -93,12 +93,11 @@ ans2 = st.text_input(
     value=st.session_state.ans2_val,
 )
 ans3 = st.text_input(
-    "ข้อ 3: my sister likes to eat `c _ e _ _ y`. 🍒" ,
+    "ข้อ 3: my sister likes to eat `c _ e _ _ y`. 🍒",
     value=st.session_state.ans3_val,
-)
-    
+)  
 ans4 = st.text_input(
-    "ข้อ 4: my grandmother loves reading `B _ _ k s`. 📚" ,
+    "ข้อ 4: my grandmother loves reading `B _ _ k s`. 📚",
     value=st.session_state.ans4_val,
 )
 
