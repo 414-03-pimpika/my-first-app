@@ -92,14 +92,6 @@ ans2 = st.text_input(
     "ข้อ 2: Cats love to eat `f _ s h`. 🐟",
     value=st.session_state.ans2_val,
 )
-
-# อัปเดตค่าล่าสุดเข้าตัวแปร
-st.session_state.ans1_val = ans1
-st.session_state.ans2_va2 = ans2
-st.session_state.ans3_va3 = ans3
-st.session_state.ans4_va4 = ans4
-
-
 ans3 = st.text_input(
     "ข้อ 3: my sister likes to eat `c _ e _ _ y`. 🍒" ,
     value=st.session_state.ans3_val,
@@ -110,6 +102,12 @@ ans4 = st.text_input(
     value=st.session_state.ans4_val,
 )
 
+
+# อัปเดตค่าล่าสุดเข้าตัวแปร
+st.session_state.ans1_val = ans1
+st.session_state.ans2_va2 = ans2
+st.session_state.ans3_va3 = ans3
+st.session_state.ans4_va4 = ans4
 
 
 # 4. ปุ่มส่งคำตอบ
