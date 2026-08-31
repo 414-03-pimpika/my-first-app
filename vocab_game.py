@@ -96,6 +96,8 @@ ans2 = st.text_input(
 # อัปเดตค่าล่าสุดเข้าตัวแปร
 st.session_state.ans1_val = ans1
 st.session_state.ans2_va2 = ans2
+st.session_state.ans3_va3 = ans3
+st.session_state.ans4_va4 = ans4
 
 
 ans3 = st.text_input(
